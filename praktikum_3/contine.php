@@ -1,15 +1,16 @@
 <html>
     <body>
-        <?php
-            // melakukan continue  pada $i == 2
-            for ($i = 0; $i<5; $++)
+        <?php 
+        //melakukan continue pada $i == 2
+        for ($i = 0; $i<5; $i++)
+        {
+            if ($i == 2)
             {
-                if($i == 2)
-            {
-                    continue;
+                continue;
             }
-            echo ("Nilai i $i <br>");
+            echo ("Nilai i : $i <br>");
+        }
+        echo ("Loop Selesai");
         ?>
     </body>
 </html>
-                

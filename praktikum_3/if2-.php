@@ -1,11 +1,11 @@
 <html>
     <body>
         <?php
-            $d=date("D");if ($d=="sat")
-            echo "selamat berakhir pekan!";
-            elseif ($d=="fri");
-            echo "selamat menunaikan sholat jum'at bgi yang muslim!";else
-            echo "selamat belajar!";
-        ?>
+     $d=date("D"); if ($d=="Sat")
+     echo "Selamat berakhir pekan!";
+    elseif ($d=="Fri")
+     echo "Selamat Menunaikan sholat Jum'at bagi yang muslim!"; else
+     echo "Selamat belajar!";
+     ?>
     </body>
 </html>
