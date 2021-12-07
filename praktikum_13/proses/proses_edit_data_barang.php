@@ -11,7 +11,7 @@ $gambar = $_POST['gambar'];
 $stock   = $_POST['stock'];
 
 $query = "INSERT INTO `tb_barang` (`kode_barang`, `nama_barang`, `keterangan`, `gambar`, `stock`) 
-VALUES ('$kode_barang', '$nama_barang', '$keterangan', '$gambar', '$stock')";
+VALUES ($kode_barang, '$nama_barang', '$keterangan', '$gambar', '$stock')";
 if ($conn->query($query)) {
     header("location: ../barang");
 } else {
