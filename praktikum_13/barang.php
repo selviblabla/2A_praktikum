@@ -175,7 +175,8 @@ $select = mysqli_query($conn, "SELECT * FROM tb_barang");
                                                         <input type="text" name="kode_barang" class="form-control" id="kode_barang">
                                                     </div>
                                                     <div class="mb-1">
-                                                        <label for="nama_barang" class="col-form-label">Nama Barang:</label>
+       
+                                                    <label for="nama_barang" class="col-form-label">Nama Barang:</label>
                                                         <input type="text" name="nama_barang" class="form-control" id="nama_barang">
                                                     </div>
                                                     <div class="mb-1">
